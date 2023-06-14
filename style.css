@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  list-style: none;
+}
+body {
+  margin-top: 40px;
+}
+.card-container {
+  width: 700px;
+  margin: 0 auto;
+}
+.color-bar-thick-turq {
+  background-color: #4BA0B5;
+  height: 100px;
+}
+.card-main {
+  border: 3px solid rgb(220, 220, 220);
+  height: 280px;
+  border-top: #4BA0B5;  
+  padding: 0 40px;
+  vertical-align: baseline;
+}
+#user-icon {
+  margin-top: -56px;
+  width: 100px;
+  padding: 3px;
+  border: 3px solid rgb(220, 220, 220);
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+h1 {
+  font-size: 50px;
+}
+.inner-info {
+  margin: 10px 10px 10px 0;
+  display: flex;  
+  align-items: center;
+}
+ul {
+  display: flex;
+}
+li {
+  margin: 5px 5px 5px 0;
+}
+#map-marker {
+  width: 15px;
+  height: 20px;
+  margin-right: 10px;
+} 
+#gear {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.validation * {
+  margin: 30px 0;  
+}
